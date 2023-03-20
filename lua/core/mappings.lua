@@ -27,4 +27,9 @@ vim.keymap.set('n', '<leader>fw', builtin.live_grep, {})
 vim.keymap.set('n', '<leader>fb', builtin.buffers, {})
 vim.keymap.set('n', '<leader>fh', builtin.help_tags, {})
 
+-- ----------------------------------------------------------------------------
+-- VimTree Mapping.
+-- ----------------------------------------------------------------------------
 
+keymap('n', '<C-n>', '<cmd> NvimTreeToggle <CR>', options)
+keymap('n', '<leader>e', '<cmd> NvimTreeFocus <CR>', options)
