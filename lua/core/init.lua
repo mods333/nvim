@@ -1,5 +1,5 @@
-require("core.mappings")
 require("core.packer")
+require("core.mappings")
 
 local opt = vim.opt
 local g = vim.g
